@@ -31,15 +31,17 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+              "src/favicon.ico",
+              "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/estilos/stylesscss.scss",
+              "node_modules/remixicon/fonts/remixicon.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js"
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -48,18 +50,18 @@
           },
           "configurations": {
             "production": {
-              "budgets": [
-                {
-                  "type": "initial",
-                  "maximumWarning": "500kB",
-                  "maximumError": "1MB"
-                },
-                {
-                  "type": "anyComponentStyle",
-                  "maximumWarning": "2kB",
-                  "maximumError": "4kB"
-                }
-              ],
+             "budgets": [
+              {
+                "type": "initial",
+                "maximumWarning": "2mb",
+                "maximumError": "5mb"
+              },
+              {
+                "type": "anyComponentStyle",
+                "maximumWarning": "30kb",
+                "maximumError": "40kb"
+              }
+            ],
               "outputHashing": "all"
             },
             "development": {
@@ -94,10 +96,8 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+              "src/favicon.ico",
+              "src/assets"
             ],
             "styles": [
               "src/styles.css"
@@ -107,5 +107,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "70ff07cc-e773-49b0-8db6-a7effcaeb10a"
   }
 }

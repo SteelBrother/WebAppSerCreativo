@@ -1,0 +1,28 @@
+// src/styles.scss
+
+// Importa los archivos de configuración
+@import 'config/variables';
+// @import 'config/mixins';
+// @import 'config/functions';
+
+// Importa los estilos base
+@import 'base/base';
+// @import 'base/reset';
+// @import 'base/typography';
+// @import 'base/utilities';
+
+// Importa los estilos de componentes
+@import 'components/breakpoints';
+@import 'components/header';
+// @import 'components/button';
+// @import 'components/navbar';
+// Agrega más imports según los componentes que tengas en la carpeta components
+
+// Importa los estilos de layout
+@import 'layout/layout';
+// @import 'layout/header';
+// @import 'layout/footer';
+// Agrega más imports según los elementos de layout que tengas en la carpeta layout
+
+// Importa el archivo principal de estilos
+@import 'styles';
