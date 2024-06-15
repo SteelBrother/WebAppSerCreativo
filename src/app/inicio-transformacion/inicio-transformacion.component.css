@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
 @import 'bootstrap/dist/css/bootstrap.min.css';
 
+/* Variables y estilos generales */
 :host {
     --fontFamily: 'Poppins', sans-serif;
     --secondary: #202428;
@@ -79,7 +80,7 @@ body {
 
 .main-container .img-container,
 .main-container .sub-wrapper {
-    min-height: 500px;
+    /* min-height: 500px; */
     padding-top: 50px;
 }
 
@@ -245,7 +246,27 @@ body {
     max-width: 90%;
 }
 
-/* Media queries to adjust the order of elements on mobile devices */
+.dynamic-text {
+    display: inline;
+    border-right: 2px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@keyframes blink-cursor {
+    0%, 100% {
+        border-color: black;
+    }
+    50% {
+        border-color: transparent;
+    }
+}
+
+.blinking-cursor {
+    animation: blink-cursor 0.75s step-end infinite;
+}
+
+/* Media queries para pantallas pequeñas (max-width: 768px) */
 @media (max-width: 768px) {
 
     .main-container .img-container,
@@ -276,10 +297,10 @@ body {
         flex-direction: column;
     }
 
-    strong
-    {
-        font-weight: 500
+    strong {
+        font-weight: 500;
     }
+
     .order-1 {
         order: 1;
     }
@@ -288,63 +309,33 @@ body {
         order: 2;
     }
 
-    /* Hide div with id one on mobile */
+    /* Ocultar div con id one en dispositivos móviles */
     #one {
         display: none;
     }
 
     .main-container .lead-sub-heading {
-        font-size: 10vw; /* Adjusting the font size based on the viewport width */
+        font-size: 10vw; /* Ajustar el tamaño de la fuente según el ancho de la ventana */
     }
+
+    .dynamic-text {
+        display: inline;
+        /* border-right: 0px solid black; */
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .blinking-cursor {
+        animation: blink-cursor 0.75s step-end infinite;
+    }
+
+    
 }
 
+/* Media queries para pantallas medianas y grandes (min-width: 769px) */
 @media (min-width: 769px) {
-    /* Hide div with id two on desktop and tablet */
+    /* Ocultar div con id two en desktop y tablet */
     #two {
         display: none;
     }
-}
-
-
-.dynamic-text {
-    display: inline;
-    border-right: 2px solid black;
-    white-space: nowrap;
-    overflow: hidden;
-  }
-  
-  @keyframes blink-cursor {
-    0%, 100% {
-      border-color: black;
-    }
-    50% {
-      border-color: transparent;
-    }
-  }
-  
-  .blinking-cursor {
-    animation: blink-cursor 0.75s step-end infinite;
-  }
-  @media (max-width: 768px) {
-    
-.dynamic-text {
-    display: inline;
-    border-right: 0px solid black;
-    white-space: nowrap;
-    overflow: hidden;
-  }
-
-  @keyframes blink-cursor {
-    0%, 100% {
-      border-color: black;
-    }
-    50% {
-      border-color: transparent;
-    }
-  }
-  
-    /* Hide div with id two on desktop and tablet */
-    .blinking-cursor {
-        animation: blink-cursor 0.75s step-end infinite;
-      }
 }

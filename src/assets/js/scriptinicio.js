@@ -185,3 +185,41 @@ $(document).ready(function() {
   dynamicText.classList.add('blinking-cursor');
   type();
 });
+
+// Dynamic text change logic
+const dynamicTextTwo = document.getElementById('dynamic-texttwo');
+const wordsTwo = [
+    "el crecimiento!",
+    "el éxito!",
+    "la transformación!"
+];
+let wordIndexTwo = 0;
+let charIndexTwo = 0;
+let deletingTwo = false;
+const typingSpeedTwo = 150; // Speed of typing
+const deletingSpeedTwo = 100; // Speed of deleting
+const delayTwo = 2000; // Delay before starting to delete
+
+function typeTwo() {
+    const currentWordTwo = wordsTwo[wordIndexTwo];
+    if (!deletingTwo) {
+        dynamicTextTwo.textContent = currentWordTwo.substring(0, charIndexTwo);
+        charIndexTwo++;
+        if (charIndexTwo > currentWordTwo.length) {
+            deletingTwo = true;
+            setTimeout(typeTwo, delayTwo);
+            return;
+        }
+    } else {
+        dynamicTextTwo.textContent = currentWordTwo.substring(0, charIndexTwo);
+        charIndexTwo--;
+        if (charIndexTwo === 0) {
+            deletingTwo = false;
+            wordIndexTwo = (wordIndexTwo + 1) % wordsTwo.length;
+        }
+    }
+    setTimeout(typeTwo, deletingTwo ? deletingSpeedTwo : typingSpeedTwo);
+}
+
+dynamicTextTwo.classList.add('blinking-cursor');
+typeTwo();

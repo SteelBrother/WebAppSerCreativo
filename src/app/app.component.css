@@ -13,12 +13,22 @@
     /* background: #1f242d; */
     overflow: hidden;
 }
-
+.sectionportafolio
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    /* background: #1f242d; */
+    overflow: hidden;
+}
 .sec1 {
-    background-color: black;
+    background-color: #fcc66e;
+    
 }
 .sec2 {
-    background-color: #fcc66e;
+    background-color: black;
 }
 
 .sec3 {
@@ -108,4 +118,34 @@ p.animate {
 
 .sec5 img:nth-child(3) {
     transition-delay: 0.4s;
+}
+
+/* Media query para tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+    .sectionportafolio
+    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 65vh;
+    /* background: #1f242d; */
+    overflow: hidden;
+    }
+}
+
+/* Media queries to adjust the order of elements on mobile devices */
+@media (max-width: 768px) {
+
+    .sectionportafolio
+    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 165vh;
+    /* background: #1f242d; */
+    overflow: hidden;
+    }
 }

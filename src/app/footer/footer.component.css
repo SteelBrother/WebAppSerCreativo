@@ -47,7 +47,7 @@ ul {
   margin-bottom: 30px;
 }
 .footer-logo img {
-    max-width: 200px;
+    max-width: 150px;
 }
 .footer-text p {
   margin-bottom: 14px;
@@ -82,7 +82,7 @@ ul {
   background: #55ACEE;
 }
 .google-bg{
-  background: #DD4B39;
+  background: #fcc66e;
 }
 .footer-widget-heading h3 {
   color: #fff;
@@ -98,7 +98,7 @@ ul {
   bottom: -15px;
   height: 2px;
   width: 50px;
-  background: #ff5e14;
+  background: #fcc66e;
 }
 .footer-widget ul li {
   display: inline-block;
@@ -107,7 +107,7 @@ ul {
   margin-bottom: 12px;
 }
 .footer-widget ul li a:hover{
-  color: #ff5e14;
+  color: #fcc66e;
 }
 .footer-widget ul li a {
   color: #878787;
@@ -127,9 +127,9 @@ ul {
 .subscribe-form button {
     position: absolute;
     right: 0;
-    background: #ff5e14;
-    padding: 13px 20px;
-    border: 1px solid #ff5e14;
+    background: #fcc66e;
+    padding: 26px 20px;
+    border: 1px solid #fcc66e;
     top: 0;
 }
 .subscribe-form button i {
@@ -147,16 +147,16 @@ ul {
   color: #878787;
 }
 .copyright-text p a{
-  color: #ff5e14;
+  color: #fcc66e;
 }
 .footer-menu li {
   display: inline-block;
   margin-left: 20px;
 }
 .footer-menu li:hover a{
-  color: #ff5e14;
+  color: #fcc66e;
 }
 .footer-menu li a {
   font-size: 14px;
-  color: #878787;
+  color: black;
 }
