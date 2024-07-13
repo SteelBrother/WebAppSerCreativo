@@ -14,6 +14,7 @@ import { BtnsabermasComponent } from './btnsabermas/btnsabermas.component';
 import { CarrouselServiciosComponent } from './carrousel-servicios/carrousel-servicios.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { EquipoComponent } from './equipo/equipo.component';
+import { SliderProyectosComponent } from './slider-proyectos/slider-proyectos.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { EquipoComponent } from './equipo/equipo.component';
     BtnsabermasComponent,
     CarrouselServiciosComponent,
     ContactoComponent,
-    EquipoComponent
+    EquipoComponent,
+    SliderProyectosComponent
   ],
   imports: [
     BrowserModule,

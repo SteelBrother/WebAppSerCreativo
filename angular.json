@@ -37,10 +37,12 @@
             "styles": [
               "src/styles.css",
               "src/assets/estilos/stylesscss.scss",
-              "node_modules/remixicon/fonts/remixicon.css"
+              "node_modules/remixicon/fonts/remixicon.css",
+              "node_modules/swiper/swiper-bundle.min.css"
             ],
             "scripts": [
-              "node_modules/jquery/dist/jquery.min.js"
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/swiper/swiper-bundle.min.js"
             ]
           },
           "configurations": {
