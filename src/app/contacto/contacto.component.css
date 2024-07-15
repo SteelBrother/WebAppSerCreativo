@@ -28,7 +28,7 @@
   }
 
   .contact-wrapper {
-    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 20px 0 rgba(26, 25, 25, 0.3);
     /* 0 0 126px 0 rgb(255 255 255 / 33%) */
   }
 
@@ -37,7 +37,7 @@
   }
 
   .contact-form {
-    background-color: #222;
+    background-color: #222222e5;
   }
 
   .contact-form form {
@@ -53,6 +53,12 @@
     margin: 0;
     padding: 1em;
   }
+  
+.contact-form p a {
+  text-decoration: none;  
+  color: #000;
+}
+
 
   .txt
   {
@@ -76,6 +82,7 @@
     border: 0;
     text-transform: uppercase;
     padding: 1em;
+
   }
 
   .contact-form form button:hover,
@@ -87,7 +94,8 @@
   }
 
   .contact-info {
-    background-color: #000;
+    background-color: #00000086;
+    padding: 30px;
   }
 
   .contact-info h4,

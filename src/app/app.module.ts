@@ -15,6 +15,9 @@ import { CarrouselServiciosComponent } from './carrousel-servicios/carrousel-ser
 import { ContactoComponent } from './contacto/contacto.component';
 import { EquipoComponent } from './equipo/equipo.component';
 import { SliderProyectosComponent } from './slider-proyectos/slider-proyectos.component';
+import { SliderportafolioComponent } from './sliderportafolio/sliderportafolio.component';
+import { BtnwaComponent } from './btnwa/btnwa.component';
+
 
 @NgModule({
   declarations: [
@@ -30,8 +33,10 @@ import { SliderProyectosComponent } from './slider-proyectos/slider-proyectos.co
     CarrouselServiciosComponent,
     ContactoComponent,
     EquipoComponent,
-    SliderProyectosComponent
-  ],
+    SliderProyectosComponent,
+    SliderportafolioComponent,
+    BtnwaComponent
+      ],
   imports: [
     BrowserModule,
     AppRoutingModule

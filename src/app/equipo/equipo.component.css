@@ -31,8 +31,9 @@
   
   .magic-team h2 {
     font-size: 6vw;
+    font-weight: 700;
     color: #fcc66c;
-    text-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 7px 10px rgba(0, 0, 0, 0.5);
   }
   
   .magic-team .defilee__main {
@@ -50,8 +51,13 @@
     perspective: 0.5px;
     transform-style: preserve-3d;
     overflow: hidden;
+    
   }
-  
+  .defilee__outer h1{
+    
+    line-height: auto;
+    font-weight: 700;
+  }
   .magic-team .defilee__ctnr {
     transform-style: preserve-3d;
     display: inline-flex;
@@ -71,6 +77,7 @@
     padding: 0.75vw;
     border-radius: 4px;
     box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 1);
+    font-size: 0.75rem;
   }
   
   @media (max-width: 767px) {
