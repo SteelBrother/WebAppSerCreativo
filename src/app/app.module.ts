@@ -17,6 +17,22 @@ import { EquipoComponent } from './equipo/equipo.component';
 import { SliderProyectosComponent } from './slider-proyectos/slider-proyectos.component';
 import { SliderportafolioComponent } from './sliderportafolio/sliderportafolio.component';
 import { BtnwaComponent } from './btnwa/btnwa.component';
+import { ConocenosComponent } from './conocenos/conocenos.component';
+import { InicioComponent } from './inicio/inicio.component';
+import { NeohomeComponent } from './neohome/neohome.component';
+import { InferjsComponent } from './inferjs/inferjs.component';
+import { AlmamaComponent } from './almama/almama.component';
+import { GalacticnftComponent } from './galacticnft/galacticnft.component';
+import { HugospizzaComponent } from './hugospizza/hugospizza.component';
+import { ViajedescubreComponent } from './viajedescubre/viajedescubre.component';
+import { ViajedecideComponent } from './viajedecide/viajedecide.component';
+import { ViajecontruyeComponent } from './viajecontruye/viajecontruye.component';
+import { ViajecreceComponent } from './viajecrece/viajecrece.component';
+import { ViajeenriqueceComponent } from './viajeenriquece/viajeenriquece.component';
+import { PerfilgioComponent } from './perfilgio/perfilgio.component';
+import { PerfilnicolasComponent } from './perfilnicolas/perfilnicolas.component';
+import { UneteanosotrosComponent } from './uneteanosotros/uneteanosotros.component';
+import { ContactolabComponent } from './contactolab/contactolab.component';
 
 
 @NgModule({
@@ -35,7 +51,23 @@ import { BtnwaComponent } from './btnwa/btnwa.component';
     EquipoComponent,
     SliderProyectosComponent,
     SliderportafolioComponent,
-    BtnwaComponent
+    BtnwaComponent,
+    ConocenosComponent,
+    InicioComponent,
+    NeohomeComponent,
+    InferjsComponent,
+    AlmamaComponent,
+    GalacticnftComponent,
+    HugospizzaComponent,
+    ViajedescubreComponent,
+    ViajedecideComponent,
+    ViajecontruyeComponent,
+    ViajecreceComponent,
+    ViajeenriqueceComponent,
+    PerfilgioComponent,
+    PerfilnicolasComponent,
+    UneteanosotrosComponent,
+    ContactolabComponent
       ],
   imports: [
     BrowserModule,
