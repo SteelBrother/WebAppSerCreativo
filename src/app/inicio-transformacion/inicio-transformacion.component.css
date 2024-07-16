@@ -89,6 +89,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 .main-container .sub-wrapper {
@@ -335,7 +336,20 @@ body {
 /* Media queries para pantallas medianas y grandes (min-width: 769px) */
 @media (min-width: 769px) {
     /* Ocultar div con id two en desktop y tablet */
+
+
     #two {
         display: none;
     }
+    .dynamic-text {
+        display: inline;
+        /* border-right: 0px solid black; */
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .blinking-cursor {
+        animation: blink-cursor 0.75s step-end infinite;
+    }
+
 }

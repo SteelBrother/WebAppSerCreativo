@@ -9,7 +9,7 @@
 .col {
     display: flex;
     flex-wrap: wrap;
-    background-color: #1B2C33;
+    background-color: #000000;
     cursor: pointer;
 }
 
