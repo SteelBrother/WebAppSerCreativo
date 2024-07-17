@@ -33,6 +33,8 @@ import { PerfilgioComponent } from './perfilgio/perfilgio.component';
 import { PerfilnicolasComponent } from './perfilnicolas/perfilnicolas.component';
 import { UneteanosotrosComponent } from './uneteanosotros/uneteanosotros.component';
 import { ContactolabComponent } from './contactolab/contactolab.component';
+import { ViajecreativoComponent } from './viajecreativo/viajecreativo.component';
+import { PoliticasComponent } from './politicas/politicas.component';
 
 
 @NgModule({
@@ -67,7 +69,9 @@ import { ContactolabComponent } from './contactolab/contactolab.component';
     PerfilgioComponent,
     PerfilnicolasComponent,
     UneteanosotrosComponent,
-    ContactolabComponent
+    ContactolabComponent,
+    ViajecreativoComponent,
+    PoliticasComponent
       ],
   imports: [
     BrowserModule,

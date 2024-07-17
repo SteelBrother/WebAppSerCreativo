@@ -14,7 +14,7 @@
   
 main {
   position: relative;
-  width: calc(min(90rem, 90%));
+  width: calc(min(100rem, 90%));
   margin: 0 auto;
   min-height: 100vh;
   column-gap: 3rem;
@@ -42,18 +42,20 @@ main > div span {
   text-transform: uppercase;
   letter-spacing: 7px;
   font-size: 1rem;
-  color: #ffffff;
+  color: #000000;
+  font-weight: 600;
+  
   
 }
 
 main > div h1 {
   text-transform: capitalize;
   letter-spacing: 0.8px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
   font-size: clamp(3.4375rem, 3.25rem + 0.75vw, 4rem);
   background-color: #005baa;
-  background-image: linear-gradient(45deg, #493906, #000000);
+  background-image: linear-gradient(45deg, #725c2c, #000000);
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
@@ -66,24 +68,37 @@ main > div hr {
   display: block;
   background: #000000;
   height: 0.25rem;
-  width: 6.25rem;
+  width: 12.25rem;
   border: none;
   margin: 1.125rem 0 1.875rem 0;
 }
 
-main > div p {
+ main .txt1 p {
   line-height: 1.6;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
 }
+.swiper p {
+  line-height: 1.0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  text-shadow: #000000;
+
+}
+
 
 main a {
   display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
-  color: #717171;
+  color: #000000;
   font-weight: 500;
-  background: #fff;
+  background: #fcc66e;
   border-radius: 3.125rem;
   transition: 0.3s ease-in-out;
+ 
 }
 
 main > div > a {
@@ -94,7 +109,7 @@ main > div > a {
 
 main > div > a:hover {
   border: 0.125rem solid #005baa;
-  color: #72aee2;
+  color: #fcc66e;
 }
 
 .txt1 p{
@@ -117,7 +132,7 @@ font-size: 1.1rem;
 }
 
 .swiper-slide {
-  width: 18.75rem;
+  width: 28.75rem;
   height: 28.125rem;
   display: flex;
   flex-direction: column;
@@ -127,8 +142,8 @@ font-size: 1.1rem;
 
 .swiper-slide h2 {
   color: #fff;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
   font-size: 1.4rem;
   line-height: 1.4;
   margin-bottom: 0.625rem;
@@ -139,8 +154,8 @@ font-size: 1.1rem;
 
 .swiper-slide p {
   color: #ffffff;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
   padding: 0 1.563rem;
   
   line-height: 1.6;
@@ -149,7 +164,7 @@ font-size: 1.1rem;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  text-shadow: #241717 1px 0 5px
+  text-shadow: #241717 1px 0 3px
 }
 
 .swiper-slide a {
@@ -174,33 +189,33 @@ font-size: 1.1rem;
 }
 
 .swiper-slide--one {
-  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+  background: linear-gradient(to top, #0f2027, #252a2c65, #2c536400),
     url("/assets/imagenes/portafolio2.gif")
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--two {
-  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+  background: linear-gradient(to top, #0f2027, #252a2c65, #2c536400),
     url("/assets/imagenes/portafolio1.gif")
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--three {
-  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+  background: linear-gradient(to top, #0f2027, #252a2c65, #2c536400),
     url("/assets/imagenes/portafolio3.gif")
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--four {
-  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+  background: linear-gradient(to top, #0f2027, #252a2c65, #2c536400),
     url("/assets/imagenes/portafolio4.gif")
       no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--five {
-  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+  background: linear-gradient(to top, #0f2027, #252a2c65, #2c536400),
     url("/assets/imagenes/portafolio5.gif")
-      no-repeat 50% 50% / cover;
+      no-repeat 90% 10% / cover;
 }
 
 .swiper-3d .swiper-slide-shadow-left,

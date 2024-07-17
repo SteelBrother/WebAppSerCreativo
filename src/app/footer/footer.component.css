@@ -7,12 +7,13 @@ ul {
 .footer-section {
   background: #151414;
   position: relative;
+  font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
 }
 .footer-cta {
   border-bottom: 1px solid #373636;
 }
 .single-cta i {
-  color: #ff5e14;
+  color: #fcc66e;
   font-size: 30px;
   float: left;
   margin-top: 8px;
@@ -28,8 +29,9 @@ ul {
   margin-bottom: 2px;
 }
 .cta-text span {
-  color: #757575;
+  color: #bebcbc;
   font-size: 15px;
+  font-weight: 500;
 }
 .footer-content {
   position: relative;

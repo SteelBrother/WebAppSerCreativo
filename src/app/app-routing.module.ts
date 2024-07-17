@@ -17,6 +17,12 @@ import { ViajecreceComponent } from './viajecrece/viajecrece.component';
 import { ViajedecideComponent } from './viajedecide/viajedecide.component';
 import { ViajedescubreComponent } from './viajedescubre/viajedescubre.component';
 import { ViajeenriqueceComponent } from './viajeenriquece/viajeenriquece.component';
+import { SliderportafolioComponent } from './sliderportafolio/sliderportafolio.component';
+import { EquipoComponent } from './equipo/equipo.component';
+import { ContactoComponent } from './contacto/contacto.component';
+import { InicioTransformacionComponent } from './inicio-transformacion/inicio-transformacion.component';
+import { ViajecreativoComponent } from './viajecreativo/viajecreativo.component';
+import { PoliticasComponent } from './politicas/politicas.component';
 
 const routes: Routes = [
   { path: '', component: InicioComponent },
@@ -35,6 +41,13 @@ const routes: Routes = [
   { path: 'viajecrece', component: ViajecreceComponent },
   { path: 'viajedescubre', component: ViajedescubreComponent },
   { path: 'viajeenriquece', component: ViajeenriqueceComponent },
+  { path: 'Servicios', component: CarrouselServiciosComponent},
+  { path: 'Portafolio', component: SliderportafolioComponent},
+  { path: 'Equipo', component: EquipoComponent}, 
+  { path: 'Contacto', component: ContactoComponent},
+  { path: 'Inicio', component: InicioTransformacionComponent},
+  { path: 'viajecreativo', component: ViajecreativoComponent},
+ { path: 'politicas', component:PoliticasComponent},
   { path: '**', redirectTo: '' }
 ];
 

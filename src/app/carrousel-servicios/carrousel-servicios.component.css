@@ -115,6 +115,12 @@
 .col__child--collapsed {
     padding: 0;
 }
+.col__child button{
+    display: none;
+}
+.col__child:hover::before button {
+display: initial;
+}
 
 @media screen and (min-width: 75em) {
     .col__child--collapsed {
