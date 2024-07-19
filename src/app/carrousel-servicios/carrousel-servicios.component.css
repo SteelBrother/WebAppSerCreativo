@@ -4,13 +4,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
+  
 }
 
 .col {
     display: flex;
     flex-wrap: wrap;
-    background-color: #000000;
+    background-color: #fcc66e;
     cursor: pointer;
+    
 }
 
 .col__child {
@@ -181,7 +183,22 @@ display: initial;
         border-radius: 5px;
         overflow: hidden;
         margin: auto;
+       
     }
+
+    .col-wrapper .col__child{
+        background: linear-gradient(to top, #00000000, #0000000c, #000000af)
+    }
+
+    .col__child--expand:hover h2 {
+        font-size: 1.7em;
+    }
+    
+    .col__child--expand:hover p {
+        font-size: 1.2em;
+        font-weight: 400;
+    }
+
 }
 
 /* Tablet */
@@ -199,6 +216,19 @@ display: initial;
         opacity: 1;
         transition: bottom 0.3s ease-in-out, opacity 0.3s 0.9s ease-in-out;
     }
+    .col-wrapper .col__child{
+        background: linear-gradient(to top, #000000, #0000005d, #00000009)
+    }
+    .content p{
+        font-weight: 500;
+        font-size: 1.25em;
+        
+    }
+    .content h2{
+        font-weight: 700;
+        font-size: 1.5em;
+        
+    }
 }
 
 /* Celular */
@@ -215,5 +245,20 @@ display: initial;
         color: #fff;
         opacity: 1;
         transition: bottom 0.3s ease-in-out, opacity 0.3s 0.9s ease-in-out;
+    }
+    .content h2, p{
+        text-shadow: 2px 2px 4px rgba(22, 22, 22, 0.8); /* Sombra de texto */
+    }
+    .content h2{
+        
+    }
+    .content p{
+        font-weight: 500;
+        font-size: 1.25em;
+        color: #000000;
+    }
+  
+    .col-wrapper .col__child{
+        background: linear-gradient(to top, #000000, #0000005d, #00000009)
     }
 }

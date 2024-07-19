@@ -23,6 +23,10 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { InicioTransformacionComponent } from './inicio-transformacion/inicio-transformacion.component';
 import { ViajecreativoComponent } from './viajecreativo/viajecreativo.component';
 import { PoliticasComponent } from './politicas/politicas.component';
+import { SliderptComponent } from './sliderpt/sliderpt.component';
+import { Ptv3Component } from './ptv3/ptv3.component';
+import { AccordionComponent } from './accordion/accordion.component';
+
 
 const routes: Routes = [
   { path: '', component: InicioComponent },
@@ -48,7 +52,10 @@ const routes: Routes = [
   { path: 'Inicio', component: InicioTransformacionComponent},
   { path: 'viajecreativo', component: ViajecreativoComponent},
  { path: 'politicas', component:PoliticasComponent},
-  { path: '**', redirectTo: '' }
+ { path: 'sliderpt', component: SliderptComponent},
+ { path: 'pt3', component:Ptv3Component},
+ { path: 'Accordion', component:AccordionComponent},
+ { path: '**', redirectTo: '' }
 ];
 
 @NgModule({

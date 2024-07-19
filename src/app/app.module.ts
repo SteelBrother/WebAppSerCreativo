@@ -35,6 +35,10 @@ import { UneteanosotrosComponent } from './uneteanosotros/uneteanosotros.compone
 import { ContactolabComponent } from './contactolab/contactolab.component';
 import { ViajecreativoComponent } from './viajecreativo/viajecreativo.component';
 import { PoliticasComponent } from './politicas/politicas.component';
+import { SliderptComponent } from './sliderpt/sliderpt.component';
+import { Ptv3Component } from './ptv3/ptv3.component';
+import { AccordionComponent } from './accordion/accordion.component';
+
 
 
 @NgModule({
@@ -71,7 +75,10 @@ import { PoliticasComponent } from './politicas/politicas.component';
     UneteanosotrosComponent,
     ContactolabComponent,
     ViajecreativoComponent,
-    PoliticasComponent
+    PoliticasComponent,
+    SliderptComponent,
+    Ptv3Component,
+    AccordionComponent,
       ],
   imports: [
     BrowserModule,

@@ -101,7 +101,17 @@
 
   .contact-info {
     background-color: #00000000;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(22, 22, 22, 0.432); /* Sombra de texto */
      
+  }
+  .contact-info h2 {
+    color: #000000;
+    font-size: 1.8em;
+  }
+  .contact-info h3 {
+    color: #000000;
+    font-size: 1.3em;
   }
   .img-fluid{
     align-items: center;
@@ -155,9 +165,22 @@
       padding: 2em;
     }
     
+    .contact-info h2 {
+      color: #fff;
+      font-size: 1.5em;
+      text-align: left;
+    }
+    .contact-info h3 {
+      color: #fff;
+      font-size: 1em;
+      text-align: left;
+    }
+    .contact-info h2 ,h3{
+      filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5)); /* Sombra paralela */
+    }
   .img-fluid{
     align-items: center;
-    margin-top: 90px;
+    margin-top: 40px;
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.5)); /* Sombra paralela */ 
      
   }

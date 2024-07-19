@@ -1,0 +1,27 @@
+.accordion {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px 0;
+    transition: position 0.3s ease; /* Suaviza el cambio en la posición */
+  }
+  
+  .accordion-header {
+    background: #f1f1f1;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .accordion-body {
+    padding: 10px;
+  }
+  
+  /* La clase sticky solo se aplica cuando el accordion está abierto */
+  .accordion.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Asegúrate de que el accordion esté por encima de otros elementos */
+  }
+  

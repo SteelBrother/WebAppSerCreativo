@@ -5,68 +5,294 @@
     position: relative;
 }
 .secqs1 {
-    margin-top: 150px;
+    margin-top: 110px;
+}
+.secqsm {
+    margin-top: -100px;
+}
+.secqsv {
+    
+    display: flex;
+}
+
+.sec5 {
+    background-color: #ffffff;
 }
 .img-fluid {
 min-width: 100%;
 margin-top: 4%;
 }
-.textosquien h6 {
+.img-fluiddt .img-fluidv{
+    min-width: 80%;
+    margin-top: 4%;
+    }
+ 
+.textosquien h3 {
+    margin-top: 10px;
+    font-weight: 600;
 
-    color: white;
-    /* background-color: black;
-    padding: 1em; */
 }
+.textosquien h5 {
+
+    margin-top: 10px;
+}
+
 .textosquien h6 mark {
     background-color: black;
     color: white;
     padding: 0.5em;
 }
 
+.textocomo h3 {
+    margin-top: 10px;
+    font-weight: 600;
+
+}
+.textocomo h5 {
+
+    margin-top: 10px;
+}
+
+.textocomo h6 mark {
+    background-color: black;
+    color: white;
+    padding: 0.5em;
+}
+.colaboraimg h3 {
+    text-align: center;
+    font-size:33px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.divmanos .img-fluid{
+
+    width: 100%;
+    
+}
+.divred .img-fluid{
+  
+    width: 100%;
+    margin-top: -100px;
+
+}
+
+.imagenmision {
+
+}
+
 @media (min-width: 1268px) {
-.textosquien {
+.content {
+
+    max-width: 75%;
+}
+    .textosquien {
     text-align: left;
     margin-right: 10%;
   }
+  .textocomo {
+    margin-top: -100px;
+  }
+
+  .textosquien h3 {
+
+    font-size: 25px;
+  }
+  .textosquien h5 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.25em;
+   
+}
+.textosquien h6 mark {
+
+    font-size: 15px;
+    margin-bottom: 5px;
 }
 
+.textocomo h3 {
+
+    font-size: 25px;
+  }
+  .textocomo h5 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.25em;
+   
+}
+.textocomo h6 mark {
+
+    font-size: 15px;
+    margin-bottom: 25px;
+    
+}
+.secqs1 img{
+    padding: 40px;
+}
+.secqsm img{
+    padding: 40px;
+}
+
+.img-fluiddt {
+    max-width: 100%;
+    margin-top: 33px;
+    margin-left: 1vw;
+}
+.visionimg img{
+    padding: 7em;
+   
+ }
+ .secqsv {
+    margin-top: -130px;
+   
+}
+.colaboraimg #colabora{
+    margin-top: 0px;
+    padding: 5em;
+
+}
+
+}
 @media (min-width: 770px){
     
+    .img-fluiddt {
+        margin-top: 35px;
+    }
     .textosquien {
         text-align: left;
         margin-right: 5%;
       }
+
+      .textocomo {
+        margin-top: -50px;
+      }  
+ 
+    .img-fluid{
+        padding: 5px;
+        min-width: 50%;
     }
 
-@media (max-width: 768px) {
+.visionimg img{
+   padding: 4em;
+  
+}
+#two {
+    display: none;
+}
+.colaboraimg #colaboram {
+    display: none;
 
+}
+}
+@media (max-width: 768px) {
+ .img-fluiddt .img-fluidv{
+        margin-top: -10px;
+padding: 0.25em;
+    }
+    
+    .divred .img-fluid{
+  
+        width: 100%;
+        margin-top: -50px;
+        filter: drop-shadow(0 0 7px rgba(192, 191, 191, 0.3)) drop-shadow(0 0 10px rgba(211, 201, 181, 0.6)); /* Sombra y resplandor adaptados */
+    
+    }
 .img-fluid{
     margin-top: 5%;
-}           
+    
+}   
+ .img-fluid3 {
+   padding: 3em;
+  }
+
     .textosquien h6{
-        font-size: 18px;
+        font-size: 15px;
         font-weight: 700;
-        color: rgb(196, 34, 34);
-        padding-bottom: 12px;
+        background-color: black;
+        padding: 9px;
     }
 
     .textosquien h5 {
-        font-size: 15px;
+        font-size: 18px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     
     .textosquien h3 {
-        font-size: 19px;
+        font-size:  25px;
         font-weight: 700;
+        margin-bottom: 15px;
     }
     
     .textosquien {
         text-align: center;
+        padding: 10px;
        
       }
+
+      .textosquien h6{
+        font-size: 15px;
+        font-weight: 700;
+        background-color: black;
+        padding: 9px;
+    }
+
+    .textocomo h5 {
+        font-size: 18px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .textocomo h3 {
+        font-size:  25px;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+    
+    .textocomo {
+        margin-top: -50px;
+        text-align: center;
+        padding: 10px;
+       
+      }
+      .textocomo h6{
+        font-size: 15px;
+        font-weight: 700;
+        background-color: black;
+        padding: 9px;
+    }
 .secqs1{
     margin-top: 3%;
 }
     .secqs1 img{
-       padding: 2em;
+       padding: 1em;
+    }
+    .secqsm img{
+        padding: 1em;
+     }
+     .secqsm .textosquien{
+        margin-top: -30px;
+     }
+     .visionimg img{
+        padding: 5em;
+        
+     }
+     .secqsv{
+        margin-top: -140px;
+     }
+     
+    #one {
+        display: none;
+    }
+    #two{
+        margin-top: -80px;
+    }
+    .colaboraimg #colabora {
+        display: none;
+
+    }
+    .colaboraimg {
+        margin-top: 10px;
+        padding: 2em;
     }
     }

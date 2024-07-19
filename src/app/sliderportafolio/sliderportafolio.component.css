@@ -5,16 +5,15 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
-  
 }
+
 .contmain {
-    background-color: #fcc66e;
-    
-  }
-  
+  background-color: #fcc66e;
+}
+
 main {
   position: relative;
-  width: calc(min(100rem, 90%));
+  width: calc(min(80rem, 95%));
   margin: 0 auto;
   min-height: 100vh;
   column-gap: 3rem;
@@ -42,20 +41,17 @@ main > div span {
   text-transform: uppercase;
   letter-spacing: 7px;
   font-size: 1rem;
-  color: #000000;
-  font-weight: 600;
-  
-  
+  color: #ffffff;
 }
 
 main > div h1 {
   text-transform: capitalize;
   letter-spacing: 0.8px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-size: clamp(3.4375rem, 3.25rem + 0.75vw, 4rem);
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: clamp(3.4375rem, 3.25rem + 0.75vw, 6rem); /* Aumenta el tamaño máximo */
   background-color: #005baa;
-  background-image: linear-gradient(45deg, #725c2c, #000000);
+  background-image: linear-gradient(45deg, #493906, #000000);
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
@@ -68,37 +64,24 @@ main > div hr {
   display: block;
   background: #000000;
   height: 0.25rem;
-  width: 12.25rem;
+  width: 6.25rem;
   border: none;
   margin: 1.125rem 0 1.875rem 0;
 }
 
- main .txt1 p {
+main > div p {
   line-height: 1.6;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-  font-size: 20px;
 }
-.swiper p {
-  line-height: 1.0;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-  font-size: 15px;
-  text-shadow: #000000;
-
-}
-
 
 main a {
   display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
-  color: #000000;
+  color: #717171;
   font-weight: 500;
-  background: #fcc66e;
+  background: #fff;
   border-radius: 3.125rem;
   transition: 0.3s ease-in-out;
- 
 }
 
 main > div > a {
@@ -109,14 +92,14 @@ main > div > a {
 
 main > div > a:hover {
   border: 0.125rem solid #005baa;
-  color: #fcc66e;
+  color: #72aee2;
 }
 
-.txt1 p{
-padding-right: 50px;
-font-size: 1.1rem;
-    
+.txt1 p {
+  padding-right: 50px;
+  font-size: 1.1rem;
 }
+
 .swiper {
   width: 100%;
   padding-top: 3.125rem;
@@ -132,7 +115,7 @@ font-size: 1.1rem;
 }
 
 .swiper-slide {
-  width: 28.75rem;
+  width: 18.75rem;
   height: 28.125rem;
   display: flex;
   flex-direction: column;
@@ -142,29 +125,28 @@ font-size: 1.1rem;
 
 .swiper-slide h2 {
   color: #fff;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 1.4rem;
   line-height: 1.4;
   margin-bottom: 0.625rem;
   padding: 0 0 0 1.563rem;
   text-transform: uppercase;
-  text-shadow: #241717 1px 0 5px
+  text-shadow: #241717 1px 0 5px;
 }
 
 .swiper-slide p {
   color: #ffffff;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
   padding: 0 1.563rem;
-  
   line-height: 1.6;
   font-size: 1rem;
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  text-shadow: #241717 1px 0 3px
+  text-shadow: #241717 1px 0 5px;
 }
 
 .swiper-slide a {
@@ -189,33 +171,28 @@ font-size: 1.1rem;
 }
 
 .swiper-slide--one {
-  background: linear-gradient(to top, #0f2027, #252a2c65, #2c536400),
-    url("/assets/imagenes/portafolio2.gif")
-      no-repeat 50% 50% / cover;
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("/assets/imagenes/portafolio2.gif") no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--two {
-  background: linear-gradient(to top, #0f2027, #252a2c65, #2c536400),
-    url("/assets/imagenes/portafolio1.gif")
-      no-repeat 50% 50% / cover;
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("/assets/imagenes/portafolio1.gif") no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--three {
-  background: linear-gradient(to top, #0f2027, #252a2c65, #2c536400),
-    url("/assets/imagenes/portafolio3.gif")
-      no-repeat 50% 50% / cover;
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("/assets/imagenes/portafolio3.gif") no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--four {
-  background: linear-gradient(to top, #0f2027, #252a2c65, #2c536400),
-    url("/assets/imagenes/portafolio4.gif")
-      no-repeat 50% 50% / cover;
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("/assets/imagenes/portafolio4.gif") no-repeat 50% 50% / cover;
 }
 
 .swiper-slide--five {
-  background: linear-gradient(to top, #0f2027, #252a2c65, #2c536400),
-    url("/assets/imagenes/portafolio5.gif")
-      no-repeat 90% 10% / cover;
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("/assets/imagenes/portafolio5.gif") no-repeat 50% 50% / cover;
 }
 
 .swiper-3d .swiper-slide-shadow-left,
@@ -228,7 +205,7 @@ font-size: 1.1rem;
     display: flex;
     align-items: center;
   }
- 
+
   .bg,
   .bg2 {
     opacity: 0.1;
@@ -237,6 +214,16 @@ font-size: 1.1rem;
 
 @media screen and (min-width: 93.75rem) {
   .swiper {
-    width: 85%;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 48rem) and (max-width: 1024px) {
+  .swiper-slide {
+    height: 14.0625rem; /* Half of 28.125rem */
+  }
+
+  main {
+    padding-block: min(5vh, 1.5rem); /* Reduce padding top and bottom */
   }
 }
