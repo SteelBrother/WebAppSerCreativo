@@ -1,6 +1,6 @@
-import { preloadImages, preloadFonts } from '../utils';
-import Cursor from '../cursor';
-import GalleryController from './galleryController';
+import { preloadImages, preloadFonts } from '../utils.js';
+import Cursor from '../cursor.js';
+import GalleryController from './galleryController.js';
 
 // Preload images and fonts
 Promise.all([preloadImages('.gallery__item-imginner'), preloadFonts('lty4rfv')]).then(() => {

@@ -26,6 +26,7 @@ import { PoliticasComponent } from './politicas/politicas.component';
 import { SliderptComponent } from './sliderpt/sliderpt.component';
 import { Ptv3Component } from './ptv3/ptv3.component';
 import { AccordionComponent } from './accordion/accordion.component';
+import { HomeComponent } from './home/home.component';
 
 
 const routes: Routes = [
@@ -55,6 +56,7 @@ const routes: Routes = [
  { path: 'sliderpt', component: SliderptComponent},
  { path: 'pt3', component:Ptv3Component},
  { path: 'Accordion', component:AccordionComponent},
+ { path: 'Home' , component:HomeComponent},
  { path: '**', redirectTo: '' }
 ];
 

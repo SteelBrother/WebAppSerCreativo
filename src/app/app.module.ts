@@ -38,6 +38,7 @@ import { PoliticasComponent } from './politicas/politicas.component';
 import { SliderptComponent } from './sliderpt/sliderpt.component';
 import { Ptv3Component } from './ptv3/ptv3.component';
 import { AccordionComponent } from './accordion/accordion.component';
+import { HomeComponent } from './home/home.component';
 
 
 
@@ -79,6 +80,7 @@ import { AccordionComponent } from './accordion/accordion.component';
     SliderptComponent,
     Ptv3Component,
     AccordionComponent,
+    HomeComponent,
       ],
   imports: [
     BrowserModule,
